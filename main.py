@@ -119,7 +119,7 @@ lGrid = np.linspace(1, 4, 250)
 W, L = np.meshgrid(wGrid, lGrid)
 CGrid = getCorrectionGrid(W, L)
 
-chosenCmap = "plasma"     # try also: "magma", "plasma", "inferno"
+chosenCmap = "plasma"
 
 # 3D Surface Plot
 fig = plt.figure(figsize=(10, 7))
